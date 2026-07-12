@@ -21,7 +21,6 @@ The primary objective of this repository is to understand how CUDA kernels are i
 | 1.2 | Print Threads in CUDA | [Solution](./Cuda-Programs/Basic/Print-threads.cu) |
 
 ---
-Cuda Programs(Basic to Advanced)/Basic/Print-Block-size.cu
 
 ## 2. Easy
 
