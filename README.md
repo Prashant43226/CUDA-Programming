@@ -5,7 +5,7 @@ https://leetgpu.com/challenges
 
 ## Overview
 
-This repository contains raw CUDA implementations of various programs ranging from **Basic** to **Advanced**. The goal is to learn different CUDA programming concepts, parallel programming techniques, GPU memory hierarchy, and optimization strategies through hands-on implementations.
+This repository contains CUDA kernel implementations of various programs ranging from **Basic** to **Advanced**. The goal is to learn different CUDA programming concepts, parallel programming techniques, GPU memory hierarchy, and optimization strategies through hands-on implementations.
 
 The primary objective of this repository is to understand how CUDA kernels are implemented for a variety of computational problems while documenting my learning journey. These programs demonstrate many of the fundamental building blocks used in modern AI systems at a low level. Although modern deep learning libraries abstract away these implementations and provide highly optimized kernels, understanding the underlying CUDA concepts is invaluable for learning GPU programming and performance optimization.
 
