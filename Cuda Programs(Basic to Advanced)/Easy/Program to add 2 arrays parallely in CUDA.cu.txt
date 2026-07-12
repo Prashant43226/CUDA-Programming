@@ -1,0 +1,36 @@
+//Program to add 2 arrays parallely in CUDA
+
+#include<stdio.h>
+#include<cuda.h>
+
+__global__ void add(int *A,int *B,int *C){
+  int idx=blockIdx.x*blockDim.x+threadIdx.x;
+  C[idx]=A[idx]+B[idx];
+}
+int main(){
+  int N=10;
+  int a[N]={1,2,3,4,5,6,7,8,9,10};
+  int b[N]={11,12,13,14,15,16,17,18,19,20};
+  int C[N];
+  int * da,*db,*dc;
+
+  cudaMalloc(&da,N*sizeof(int));
+  cudaMalloc(&db,N*sizeof(int));
+  cudaMalloc(&dc,N*sizeof(int));
+
+  cudaMemcpy(da,a,N*sizeof(int),cudaMemcpyHostToDevice);
+  cudaMemcpy(db,b,N*sizeof(int),cudaMemcpyHostToDevice);
+
+  add<<<1,N>>>(da,db,dc);
+
+  cudaMemcpy(C,dc,N*sizeof(int),cudaMemcpyDeviceToHost);
+
+  for(int i=0;i<N;++i){
+    printf("%d ",C[i]);
+  }
+
+  cudaFree(da);
+  cudaFree(db);
+  cudaFree(dc);
+
+}

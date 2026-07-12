@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<cuda.h>
+__global__ void hello(){
+  printf("%d %d ",blockIdx.x,threadIdx.x);
+}
+int main(){
+  hello<<<2,4>>>();
+  cudaDeviceSynchronize();
+  return 0;
+}
