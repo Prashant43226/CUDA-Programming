@@ -17,8 +17,8 @@ The primary objective of this repository is to understand how CUDA kernels are i
 
 | # | Program | Solution |
 |---|---------|----------|
-| 1.1 | Print Block Size in CUDA | [Solution](./Basic) |
-| 1.2 | Print Threads in CUDA | [Solution](./Basic/Print-Threads/) |
+| 1.1 | Print Block Size in CUDA | [Solution](./Cuda-Programs/Basic/Print-Block-size.cu) |
+| 1.2 | Print Threads in CUDA | [Solution](./Cuda-Programs/Basic/Print-threads.cu) |
 
 ---
 Cuda Programs(Basic to Advanced)/Basic/Print-Block-size.cu
@@ -27,9 +27,9 @@ Cuda Programs(Basic to Advanced)/Basic/Print-Block-size.cu
 
 | # | Program | Challenge | Solution |
 |---|---------|-----------|----------|
-| 2.1 | Add Two Arrays in Parallel using CUDA |  | [Solution](./Easy/Array-Addition/) |
-| 2.2 | Add Two Vectors of Different Sizes using CUDA | https://leetgpu.com/challenges/vector-addition | [Solution](./Easy/Vector-Addition/) |
-| 2.3 | Vector Addition and Vector Scaling | - | [Solution](./Easy/Vector-Scaling/) |
+| 2.1 | Add Two Arrays in Parallel using CUDA |  | [Solution](./Cuda-Programs/Easy/Program-to-add-2-arrays-parallely-in-CUDA.cu) |
+| 2.2 | Add Two Vectors of Different Sizes using CUDA | https://leetgpu.com/challenges/vector-addition | [Solution](./Cuda-Programs/Easy/Program-to-add-2-vectors-with-different-block-size-and-threadpool-size.cu) |
+| 2.3 | Vector Addition and Vector Scaling | - | [Solution](./Cuda-Programs/Easy/Vector-addition.cu) |
 
 ---
 
@@ -37,14 +37,14 @@ Cuda Programs(Basic to Advanced)/Basic/Print-Block-size.cu
 
 | # | Program | Challenge | Solution |
 |---|---------|-----------|----------|
-| 3.1 | Reduction in CUDA | https://leetgpu.com/challenges/reduction | [Solution](./Medium/Reduction/) |
-| 3.2 | Softmax in CUDA | https://leetgpu.com/challenges/softmax | [Solution](./Medium/Softmax/) |
-| 3.3 | 1D Convolution in CUDA | https://leetgpu.com/challenges/1d-convolution | [Solution](./Medium/1D-Convolution/) |
-| 3.4 | Histogramming in CUDA | https://leetgpu.com/challenges/histogramming | [Solution](./Medium/Histogramming/) |
-| 3.5 | Matrix Multiplication in CUDA | https://leetgpu.com/challenges/matrix-multiplication | [Solution](./Medium/Matrix-Multiplication/) |
-| 3.6 | Matrix Transpose in CUDA | https://leetgpu.com/challenges/matrix-transpose | [Solution](./Medium/Matrix-Transpose/) |
-| 3.7 | Prefix Sum (Scan) in CUDA | https://leetgpu.com/challenges/prefix-sum | [Solution](./Medium/Prefix-Sum/) |
-| 3.8 | Softmax Attention in CUDA | https://leetgpu.com/challenges/softmax-attention | [Solution](./Medium/Softmax-Attention/) |
+| 3.1 | Reduction in CUDA | https://leetgpu.com/challenges/reduction | [Solution](./Cuda-Programs/Medium/Reduction.cu) |
+| 3.2 | Softmax in CUDA | https://leetgpu.com/challenges/softmax | [Solution](./Cuda-Programs/Medium/Softmax.cu) |
+| 3.3 | 1D Convolution in CUDA | https://leetgpu.com/challenges/1d-convolution | [Solution](./Cuda-Programs/Medium/1D-convolution.cu) |
+| 3.4 | Histogramming in CUDA | https://leetgpu.com/challenges/histogramming | [Solution](./Cuda-Programs/Medium/Histogram.cu) |
+| 3.5 | Matrix Multiplication in CUDA | https://leetgpu.com/challenges/matrix-multiplication | [Solution](./Cuda-Programs/Medium/Matrix-multiplication.cu/) |
+| 3.6 | Matrix Transpose in CUDA | https://leetgpu.com/challenges/matrix-transpose | [Solution](./Cuda-Programs/Medium/Matrix-transpose.cu) |
+| 3.7 | Prefix Sum (Scan) in CUDA | https://leetgpu.com/challenges/prefix-sum | [Solution](./Cuda-Programs/Medium/Prefix-sum.cu/) |
+| 3.8 | Softmax Attention in CUDA | https://leetgpu.com/challenges/softmax-attention | [Solution](./Cuda-Programs/Medium/softmax-attention.cu/) |
 
 ---
 
